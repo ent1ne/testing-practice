@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "6993d14d-d5d6-4c5a-a12d-88710b5b5922",
+		"name": "NASA APOD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24797153"
+	},
+	"item": [
+		{
+			"name": "date today",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "postman",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&date=2022-12-10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "date",
+							"value": "2022-12-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "date tomorrow",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&date=2022-12-11",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "date",
+							"value": "2022-12-11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "date min",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&date=1995-06-16",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "date",
+							"value": "1995-06-16"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "date min -1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&date=1995-06-15 ",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "date",
+							"value": "1995-06-15 "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hd true",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&hd=true",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "hd",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hd false",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6&hd=false",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "ofjaSCPsm6v0Cw0Oc01Hd2L2fVzxcmvUKO3f4et6"
+						},
+						{
+							"key": "hd",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
