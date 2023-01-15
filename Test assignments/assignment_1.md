@@ -19,8 +19,11 @@ Inside the Postman environment we create the variable apiKey that contains the A
 registration on NASA API website. Recieved API Key should be passed into environment over the apiKey variable
 
 2. 
+```
 var jsonData = JSON.parse(responseBody);
 postman.setEnvironmentVariable("secondPhotoId", jsonData.photos[1].id)
+```
+
 
 In the body of GET query we find the list with all photos and pass the id of the second element from the list 
 into the environment variable 
