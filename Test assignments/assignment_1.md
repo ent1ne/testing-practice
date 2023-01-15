@@ -27,19 +27,20 @@ The solution should contain the query URL and the JS code for passing the variab
 <details><summary>SOLUTION</summary>
 <p>
 
-1. https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-01-21&api_key={{apiKey}}
-
-Inside the Postman environment we create the variable apiKey that contains the API Key we recieve after 
-registration on NASA API website. Recieved API Key should be passed into environment over the apiKey variable
-
-2. 
-  ```
+1. Inside the Postman environment we create the variable apiKey that contains the API Key we recieve after 
+registration on NASA API website. Recieved API Key should be passed into environment over the apiKey variable  
+ 
+```
+https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-01-21&api_key={{apiKey}}
+```
+ 
+2. In the body of GET query we find the list with all photos and pass the id of the second element from the list 
+into the environment variable  
+ 
+ ```
   var jsonData = JSON.parse(responseBody);
   postman.setEnvironmentVariable("secondPhotoId", jsonData.photos[1].id)
   ```
-
-In the body of GET query we find the list with all photos and pass the id of the second element from the list 
-into the environment variable 
 
 </p>
 </details>
