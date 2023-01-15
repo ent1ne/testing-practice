@@ -10,7 +10,7 @@ The task should be completed using Postman with NASA open API
 https://api.nasa.gov/
 
 You will need to find some Mars Rover Photos queries
-1. Make a query with "Querying by Earth date" using 21.01.2022
+1. Make a query with «Querying by Earth date» using 21.01.2022
 2. Pass  the id of the second photo into Postman environment variable using JSON parsing
 
 The solution should contain the query URL and the JS code for passing the variable
