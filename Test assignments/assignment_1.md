@@ -1,7 +1,6 @@
 # Postman goes to NASA  
 
-## This was the test assignment I've done for a middle QA-manual position in a financial media holding  
-## You can check the task and try to solve it by yourself or go straight to the answer
+### This was the test assignment I've done for a middle QA-manual position in a financial media holding. You can check the task and try to solve it by yourself or go straight to the answer
 
 <details><summary>TASK</summary>
 <p>
