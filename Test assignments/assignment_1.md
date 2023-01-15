@@ -5,7 +5,8 @@
 <details><summary>TASK</summary>
 <p>
 
-The task should be completed using Postman with NASA open API
+The task should be completed using Postman with NASA open API  
+
 https://api.nasa.gov/
 
 You will need to find some Mars Rover Photos queries
