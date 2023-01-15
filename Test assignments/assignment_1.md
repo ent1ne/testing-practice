@@ -1,4 +1,5 @@
-This was the test assignment I've done for a middle QA-manual position in a financial media holding.
+This was the test assignment I've done for a middle QA-manual position in a financial media holding
+You can check the task and try to solve it by yourself or go straight to the answer
 
 <details><summary>TASK</summary>
 <p>
@@ -15,7 +16,8 @@ The solution should contain the query URL and the JS code for passing the variab
 </p>
 </details>
 
-SOLUTION:
+<details><summary>SOLUTION</summary>
+<p>
 
 1. https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2022-01-21&api_key={{apiKey}}
 
@@ -28,6 +30,8 @@ var jsonData = JSON.parse(responseBody);
 postman.setEnvironmentVariable("secondPhotoId", jsonData.photos[1].id)
 ```
 
-
 In the body of GET query we find the list with all photos and pass the id of the second element from the list 
 into the environment variable 
+
+</p>
+</details>
