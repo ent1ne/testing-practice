@@ -6,7 +6,8 @@
  <img alt="How it could have turned out" src="https://scontent.ffru8-1.fna.fbcdn.net/v/t1.6435-9/102279727_3549640171717361_7718063278953332736_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=973b4a&_nc_ohc=a9XVQekx0AoAX-eGpNa&_nc_ht=scontent.ffru8-1.fna&oh=00_AfC_7rWdY92t36wm7LB4rRD2Q6CT19XFQYA2j4lcvAe-nw&oe=63EB6A30">
 </picture>
 
-### This was the test assignment I've done for a middle QA-manual position in a financial media holding. You can check the task and try to solve it by yourself or go straight to the answer
+#### This was the test assignment I've done for a middle manual QA position in a financial media holding  
+#### You can check the task and try to solve it by yourself or go straight to the answer
 
 <details><summary>TASK</summary>
 <p>
@@ -15,7 +16,8 @@ The task should be completed using Postman with NASA open API
 
 https://api.nasa.gov/
 
-You will need to find some Mars Rover Photos queries
+You will need to find some Mars Rover Photos queries:  
+ 
 1. Make a query with «Querying by Earth date» using 21.01.2022
 2. Pass  the id of the second photo into Postman environment variable using JSON parsing
 
