@@ -1,2 +1,2 @@
 # testing-practice
-Some software tests and tasks I've done
+Some software tests and test assignments I've done
