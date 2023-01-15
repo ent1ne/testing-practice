@@ -1,6 +1,7 @@
 This was the test assignment I've done for a middle QA-manual position in a financial media holding.
 
-TASK:
+<details><summary>TASK</summary>
+<p>
 
 The task should be completed using Postman with NASA open API
 https://api.nasa.gov/
@@ -10,6 +11,9 @@ You will need to find some Mars Rover Photos queries
 2. Pass  the id of the second photo into Postman environment variable using JSON parsing
 
 The solution should contain the query URL and the JS code for passing the variable
+
+</p>
+</details>
 
 SOLUTION:
 
