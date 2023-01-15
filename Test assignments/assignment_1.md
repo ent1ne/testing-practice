@@ -1,4 +1,4 @@
-This was the test assignments I've received for a middle QA-manual position in a financial media holding.
+This was the test assignment I've done for a middle QA-manual position in a financial media holding.
 
 TASK:
 
